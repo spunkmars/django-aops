@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% trans confirm_title %}
+{% block real_content %}
+<table align="center">
+    <tr>
+        <td>
+            <p sytle="color:red"> {{ confirm_msg }}</p>
+                <p><a href="{{ confirm_next_url }}" title="{{ confirm_title }}" >{{ confirm_title }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="{{ confirm_back_url }}" title="{{ confirm_back_title }}" >{{ confirm_back_title }}</a>
+                </p>
+        </td>
+    </tr>
+</table>
+
+
+
+{% endblock %}

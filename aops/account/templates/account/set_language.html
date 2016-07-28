@@ -1,0 +1,9 @@
+{% load i18n %}
+                    <script src="/static/js/shark.js"></script>
+                    <form action="/i18n/setlang/" method="post" style="margin:0px;display:inline;">
+{% csrf_token %}
+                        <select class="form-control" id="language" name="language" onchange="on_change();">
+                            <option value='en'>-----------</option>
+                        </select> 
+                    </form>
+

@@ -1,0 +1,14 @@
+<p>{{ object.idc_contract }}</p>
+<p>{{ object.alias }}</p>
+<p>{{ object.begin_ip }}</p>
+<p>{{ object.end_ip }}</p>
+<p>{{ object.mask }}</p>
+<p>{{ object.gateway }}</p>
+<p>{{ object.dns }}</p>
+<p>{{ object.operator }}</p>
+<p>{{ object.comment }}</p>
+<p>{{ object.status }}</p>
+<p>{{ object.is_dynamic }}</p>
+<p>{{ object.is_deleted }}</p>
+<p>{{ object.create_time }}</p>
+<p>{{ object.update_time }}</p>

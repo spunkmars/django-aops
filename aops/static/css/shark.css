@@ -1,0 +1,56 @@
+.f1 {
+    padding-top: 7px;
+    font-size:13px;
+}
+
+.fe {
+    padding-top: 7px;
+    font-size:14px;
+    color:red;
+    display: block;
+
+}
+
+.table thead tr th{
+    vertical-align:middle;
+    background-color: #BCD2EE;
+    text-align: center;
+}
+
+.table tbody tr td{
+    vertical-align:middle;
+    text-align: center;
+}
+
+.page-header {
+    margin:5px 0 20px;
+}
+
+.location {
+    margin:5px 0 5px;
+}
+
+
+#page-bottom {
+    border-top: 1px solid #eee;
+    text-align: center;
+    background-color: #BCD2EE;
+}
+
+
+#id_ul{
+        list-style:none;
+        overflow: auto;
+        margin:0;
+        padding:0;
+        zoom:1;
+        white-space: nowrap;
+        width: 800px;
+  }
+
+#id_ul li{
+        line-height:20px;
+        margin:5px 4px;
+        text-align:center;
+        display: inline;
+}

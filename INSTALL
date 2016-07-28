@@ -1,0 +1,49 @@
+一. 安装依赖包
+
+/usr/local/python27/bin/pip install -r  aops/cmdb/requirements.txt
+
+
+----------------------
+PIL安装：
+
+0、 卸载已安装有问题的PIL
+/usr/local/python27/bin/pip uninstall PIL
+
+1、安装freetype开发库
+yum install freetype-devel
+
+2、下载源代码http://effbot.org/downloads/Imaging-1.1.7.tar.gz
+
+3、修改setup.py文件
+修改
+FREETYPE_ROOT = '/usr/lib64','/usr/include/freetype2/freetype'
+
+4、查看支持项
+python setup.py build_ext -i
+--- FREETYPE2 support available  注意这一项
+
+5、编译安装
+python setup.py install
+
+
+----------------------
+M2Crypto安装 :
+
+yum install  swig swig-devel
+
+tar zxvf M2Crypto-0.21.1.tar.gz
+
+cd M2Crypto-0.21.1
+
+sed -i "s#python#/usr/local/python27/bin/python#" fedora_setup.sh
+
+/bin/bash fedora_setup.sh  install
+
+
+二. 建立相关目录：
+
+mkdir -p aops/data
+mkdir -p aops/data/keys
+mkdir -p aops/tmp
+mkdir -p aops/indexes
+

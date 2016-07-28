@@ -1,0 +1,9 @@
+<p>{{ object.idc_name }}</p>
+<p>{{ object.idc_address }}</p>
+<p>{{ object.company }}</p>
+<p>{{ object.comment }}</p>
+<p>{{ object.status }}</p>
+<p>{{ object.is_dynamic }}</p>
+<p>{{ object.is_deleted }}</p>
+<p>{{ object.create_time }}</p>
+<p>{{ object.update_time }}</p>

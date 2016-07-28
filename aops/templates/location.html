@@ -1,0 +1,14 @@
+{% load i18n %}
+{% block current_location %}
+            <div class="row">
+                <div class="col-lg-6 location">
+                    <ol class="breadcrumb ">
+                        <li><span> {% trans 'Current Position' %}: </span></li>
+                        <li><a href="#">AOPS</a></li>
+                        <li><a href="#">{% trans app.name %}</a></li>
+                        <li><a href="#">{% trans app.fun %}</a></li>
+                        <li class="active">{% trans app.location %}</li>
+                    </ol>
+                </div>
+            </div>
+{% endblock %}

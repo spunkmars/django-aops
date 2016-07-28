@@ -1,0 +1,9 @@
+<p>{{ object.idc_contract }}</p>
+<p>{{ object.cabinet_name }}</p>
+<p>{{ object.cabinet_location }}</p>
+<p>{{ object.comment }}</p>
+<p>{{ object.status }}</p>
+<p>{{ object.is_dynamic }}</p>
+<p>{{ object.is_deleted }}</p>
+<p>{{ object.create_time }}</p>
+<p>{{ object.update_time }}</p>

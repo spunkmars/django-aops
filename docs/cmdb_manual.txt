@@ -1,0 +1,5 @@
+
+
+1.把翻译文件po编译成二进制文件mo：
+cd /data/htdocs/www/django-aops/aops/cmdb
+/usr/local/python27/bin/django-admin.py compilemessages

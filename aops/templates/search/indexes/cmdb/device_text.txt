@@ -1,0 +1,9 @@
+<p>{{ object.contract }}</p>
+<p>{{ object.cabinet_seat }}</p>
+<p>{{ object.type }}</p>
+<p>{{ object.device_id }}</p>
+<p>{{ object.comment }}</p>
+<p>{{ object.is_dynamic }}</p>
+<p>{{ object.is_deleted }}</p>
+<p>{{ object.create_time }}</p>
+<p>{{ object.update_time }}</p>

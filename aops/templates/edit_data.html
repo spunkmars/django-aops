@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %} {% trans "Edit " %}{% trans app.fun|title  %} {% endblock %}
+{% block real_content %}
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Edit {{ app.fun|title }}</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Edit {{ app.fun|title }}
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-11">
+                                     <form class="form-horizontal" action="" method="post">
+                                        {% csrf_token %}
+                                        <fieldset>
+                                            {% if ex_form %}
+                                            {{ ex_form.as_bootstrap }}
+                                            {% endif %}
+                                            {{ form.as_bootstrap }}
+                                        </fieldset>
+                                        <div class="form-group">
+                                            <button type="reset" id="reset" class="col-sm-offset-2 btn btn-primary " data-loading-text="Rollback...">{% trans "Reset" %}</button>
+                                            <button type="submit" id="submit" class="col-sm-offset-1 btn btn-primary " data-loading-text="Udpate...">{% trans "Submit" %}</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- /.col-lg-10 (nested) -->
+                            </div>
+                            <!-- /.row (nested) -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+{% endblock %}

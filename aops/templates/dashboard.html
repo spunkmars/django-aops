@@ -1,0 +1,259 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %} {% trans "Dashboard " %} {% endblock %}
+
+{% block custom_css %}
+    <link href="/static/css/dashboard.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block real_content %}
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Dashboard</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-comments fa-3x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div  style="font-size: 18px;">26</div>
+                                    <div>New Comments!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-tasks fa-3x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div style="font-size: 18px;">12</div>
+                                    <div>New Tasks!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-shopping-cart fa-3x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div style="font-size: 18px;">124</div>
+                                    <div>New Orders!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-support fa-3x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div style="font-size: 18px;">13</div>
+                                    <div>Support Tickets!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header"></h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel text-right">
+                    <span class="text-primary">{%  trans 'Theme' %}:</span>
+                    <select id="theme-select" ></select>
+                    </div>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+                        <div id="morris-donut-chart01"  class="mdc_height" ></div>
+                      </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-3">
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+                        <div id="morris-donut-chart02" class="mdc_height"></div>
+                      </div>
+                    </div>
+                    <!-- /.panel -->
+                </div>
+
+
+                <div class="col-lg-3 col-md-3">
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+                     <div id="morris-donut-chart03" class="mdc_height"></div>
+                      </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-3">
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+
+                        <div id="morris-donut-chart04" class="mdc_height"></div>
+                      </div>
+                    </div>
+
+                </div>
+             </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header"></h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+
+
+            <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                    <div class="panel panel-default">
+
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-bar-chart01" class="mbc_height"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="panel panel-default">
+
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-bar-chart02" class="mbc_height"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+             </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header"></h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                    <div class="panel panel-default">
+
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-bar-chart03" class="ebc_height"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="panel panel-default">
+
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-bar-chart04" class="ebc_height"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header"></h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+
+
+
+
+{% endblock %}
+
+{% block custom_js %}
+        <script src="/static/echarts/build/dist/esl/esl.js"></script>
+        <script src="/static/echarts/build/dist/echarts-all.js"></script>
+        <script src="/static/js/dashboard.js"></script>
+
+{% endblock %}
+

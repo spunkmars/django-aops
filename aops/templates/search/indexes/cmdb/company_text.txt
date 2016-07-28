@@ -1,0 +1,11 @@
+<p>{{ object.name }}</p>
+<p>{{ object.alias }}</p>
+<p>{{ object.address }}</p>
+<p>{{ object.mail }}</p>
+<p>{{ object.phone }}</p>
+<p>{{ object.comment }}</p>
+<p>{{ object.status }}</p>
+<p>{{ object.is_dynamic }}</p>
+<p>{{ object.is_deleted }}</p>
+<p>{{ object.create_time }}</p>
+<p>{{ object.update_time }}</p>

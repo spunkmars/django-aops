@@ -1,0 +1,15 @@
+<p>{{ object.contract_serial }}</p>
+<p>{{ object.contract_name }}</p>
+<p>{{ object.contract_type }}</p>
+<p>{{ object.contract_outline }}</p>
+<p>{{ object.company }}</p>
+<p>{{ object.signing_time }}</p>
+<p>{{ object.deadline }}</p>
+<p>{{ object.signers_contacts }}</p>
+<p>{{ object.supplier_contacts }}</p>
+<p>{{ object.comment }}</p>
+<p>{{ object.status }}</p>
+<p>{{ object.is_dynamic }}</p>
+<p>{{ object.is_deleted }}</p>
+<p>{{ object.create_time }}</p>
+<p>{{ object.update_time }}</p>

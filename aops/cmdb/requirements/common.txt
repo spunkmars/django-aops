@@ -1,0 +1,11 @@
+pip>=6
+Django==1.7.8
+simplejson ; python_version < '2.6'
+pytz
+django-haystack
+whoosh
+jieba
+xlwt
+xlrd
+ipaddr
+#PIL --allow-external PIL --allow-unverified PIL; sys_platform == 'linux2'

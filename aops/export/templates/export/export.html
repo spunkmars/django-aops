@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %} {% trans "Export" %} {% endblock %}
+{% block real_content %}
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">{% trans "Export" %}</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+
+
+<form action="{% url 'export:export' %}" class="fileDownloadForm" method="post">    
+    Table：<select name="model" id="model" onchange="javascript:switch_input()">
+      <option value="NULL">------</option>
+      {%  for modle in models_list %}
+            <option value="{{ modle }}">{% trans modle %}</option>
+      {% endfor %}
+    </select>
+<br />
+<span id="model_fields"></span>
+<br />
+    <input type="reset" value="{% trans 'Reset'  %}"> &nbsp;&nbsp; <input type="submit" value="{% trans 'Export' %}"/>
+</form>
+<br/>
+{% endblock %}
+
+
+{% block custom_js %}
+<script type="text/javascript" src="/static/jquery-ui/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src=/static/js/jquery.fileDownload.js></script>
+
+<script type="text/javascript">
+
+function switch_input(){
+    var getdata;
+    var  model_name = $("#model").val()
+    var send_data = {'model':model_name};
+    getdata = {
+        poll: function(){
+            $.ajax({url: "{% url 'export:get_model_field_list' %}",
+                    //type: "GET",
+                    type: "POST",
+                    data: send_data,
+                    dataType: 'json',
+                    success: getdata.onSuccess,
+                    error: getdata.onError});
+        },
+	    onSuccess: function(data, dataStatus){
+	       //alert("A :  " + data.a)
+           //console.log("E :  " + data.e)
+           var fields = data.fields
+           var i
+           var v_str = '<ul id="id_ul"> Fields:'
+           for(var i in fields){
+               v_str = v_str + '<li><label for="id_field_' + i +'"><input id="id_field_'+ i + '" name="fields_list" type="checkbox" value="' + fields[i].val +'" /> ' +  fields[i].name + '</label></li>';
+           }
+           v_str = v_str + '</ul>'
+           $('#model_fields').html(v_str);
+
+        },
+        onError: function(){
+           alert('参数传入错误!');
+           return false;
+        }
+    };
+    getdata.poll();
+}
+
+
+
+$(document).on("submit", "form.fileDownloadForm", function (e) {
+   $.fileDownload($(this).prop('action'), {
+        preparingMessageHtml: "{% trans 'We are preparing your report, please wait...' %}",
+        failMessageHtml: "{% trans 'There was a problem generating your report, please try again.' %}",
+        httpMethod: "POST",
+        data: $(this).serialize()
+    });
+    //e.preventDefault(); //otherwise a normal form submit would occur
+});
+</script>
+
+{% endblock %}

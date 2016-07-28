@@ -1,0 +1,808 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-18 09:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+msgid "False"
+msgstr "否"
+
+msgid "True"
+msgstr "是"
+
+msgid "CMCC"
+msgstr "中国移动"
+
+msgid "CUCC"
+msgstr "中国联通"
+
+msgid "CTCC"
+msgstr "中国电信"
+
+msgid "GWBN"
+msgstr "长城宽带"
+
+msgid "CHT"
+msgstr "中华电信"
+
+msgid "LAN"
+msgstr "内网"
+
+msgid "Valid"
+msgstr "有效"
+
+msgid "Spare"
+msgstr "备用"
+
+msgid "Invalid"
+msgstr "无效"
+
+msgid "Internal Protocol"
+msgstr "内部协定"
+
+msgid "Purchase Contract"
+msgstr "购买合同"
+
+msgid "Switch"
+msgstr "交换机"
+
+msgid "Router"
+msgstr "路由器"
+
+msgid "Hub"
+msgstr "集线器"
+
+msgid "VPN"
+msgstr "虚拟专用网络"
+
+msgid "Firewall"
+msgstr "防火墙"
+
+msgid "Modem"
+msgstr "调制解调器"
+
+msgid "Bridge"
+msgstr "网桥"
+
+msgid "Repeater"
+msgstr "中继器"
+
+msgid "edit"
+msgstr "修改"
+
+msgid "Edit"
+msgstr "修改"
+
+msgid "comment"
+msgstr "备注"
+
+msgid "create_time"
+msgstr "创建时间"
+
+msgid "Create_time"
+msgstr "创建时间"
+
+msgid "update_time"
+msgstr "更新时间"
+
+msgid "Update_time"
+msgstr "更新时间"
+
+msgid "status"
+msgstr "状态"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "is_deleted"
+msgstr "是否已删"
+
+msgid "Is_deleted"
+msgstr "是否已删"
+
+msgid "Is deleted"
+msgstr "是否已删"
+
+msgid "is_dynamic"
+msgstr "能否动态修改"
+
+msgid "Is_dynamic"
+msgstr "能否动态修改"
+
+msgid "Is dynamic"
+msgstr "能否动态修改"
+
+msgid "submit"
+msgstr "提交"
+
+msgid "Submit"
+msgstr "提交"
+
+msgid "reset"
+msgstr "重置"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Commit"
+msgstr "提交"
+
+msgid "commit"
+msgstr "提交"
+
+msgid "add"
+msgstr "添加"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "list"
+msgstr "列表"
+
+msgid "List"
+msgstr "列表"
+
+msgid "del"
+msgstr "删除"
+
+msgid "Del"
+msgstr "删除"
+
+msgid "current position"
+msgstr "当前位置"
+
+msgid "Current Position"
+msgstr "当前位置"
+
+msgid "Name"
+msgstr "名字"
+
+msgid "name"
+msgstr "名字"
+
+msgid "Contract"
+msgstr "合同"
+
+msgid "contract"
+msgstr "合同"
+
+
+#---Brand
+msgid "Brand"
+msgstr "品牌"
+
+msgid "brand"
+msgstr "品牌"
+
+
+#---Cabinet
+msgid "cabinet_name"
+msgstr "机柜名称"
+
+msgid "Cabinet name"
+msgstr "机柜名称"
+
+msgid "cabinet_location"
+msgstr "机柜物理位置"
+
+msgid "Cabinet location"
+msgstr "机柜物理位置"
+
+msgid "idc_id"
+msgstr "所属机房"
+
+msgid "Idc id"
+msgstr "所属机房"
+
+
+#---Cdn
+msgid "supplier"
+msgstr "供应商"
+
+msgid "Supplier"
+msgstr "供应商"
+
+
+#--Contacts
+msgid "contacts"
+msgstr "联系人"
+
+msgid "Contacts"
+msgstr "联系人"
+
+msgid "Contact"
+msgstr "联系人"
+
+msgid "contact"
+msgstr "联系人"
+
+msgid "Contact name"
+msgstr "联系人"
+
+msgid "contact name"
+msgstr "联系人"
+
+msgid "Job titles"
+msgstr "职位"
+
+msgid "job titles"
+msgstr "职位"
+
+msgid "Job_Titles"
+msgstr "职位"
+
+msgid "job_titles"
+msgstr "职位"
+
+msgid "Company"
+msgstr "公司"
+
+msgid "company"
+msgstr "公司"
+
+msgid "Email"
+msgstr "邮箱"
+
+msgid "email"
+msgstr "邮箱"
+
+msgid "Mail"
+msgstr "邮箱"
+
+msgid "mail"
+msgstr "邮箱"
+
+msgid "Im_Num"
+msgstr "IM"
+
+msgid "im_num"
+msgstr "IM"
+
+msgid "IM"
+msgstr "IM"
+
+msgid "Phone"
+msgstr "固话"
+
+msgid "phone"
+msgstr "固话"
+
+msgid "mobile phone"
+msgstr "移动电话"
+
+msgid "Mobile phone"
+msgstr "移动电话"
+
+msgid "Mobile_Phone"
+msgstr "移动电话"
+
+msgid "mobile_phone"
+msgstr "移动电话"
+
+msgid "Address"
+msgstr "地址"
+
+msgid "address"
+msgstr "地址"
+
+msgid "Comment"
+msgstr "备注"
+
+
+#--Contract
+msgid "serial"
+msgstr "序列号"
+
+msgid "type"
+msgstr "类型"
+
+msgid "outline"
+msgstr "合同概要"
+
+msgid "contract_outline"
+msgstr "合同概要"
+
+msgid "Signers"
+msgstr "签名"
+
+msgid "Contract serial"
+msgstr "合同编号"
+
+msgid "contract_serial"
+msgstr "合同编号"
+
+msgid "signers_contacts"
+msgstr "合同签署人"
+
+msgid "supplier_contacts"
+msgstr "合作方签署人"
+
+msgid "Contract name"
+msgstr "合同名称"
+
+msgid "contract_name"
+msgstr "合同名称"
+
+msgid "Contract type"
+msgstr "合同类型"
+
+msgid "contract_type"
+msgstr "合同类型"
+
+msgid "Contract outline"
+msgstr "合同内容"
+
+msgid "Signing time"
+msgstr "签订时间"
+
+msgid "signing_time"
+msgstr "签订时间"
+
+msgid "Deadline"
+msgstr "到期时间"
+
+msgid "deadline"
+msgstr "到期时间"
+
+
+#--Idc
+msgid "idc"
+msgstr "数据中心"
+
+msgid "Idc"
+msgstr "数据中心"
+
+msgid "IDC"
+msgstr "数据中心"
+
+msgid "idc_name"
+msgstr "机房名称"
+
+msgid "idc_address"
+msgstr "机房地址"
+
+
+#--Ip_Resource
+msgid "ip_resource"
+msgstr "IP资源"
+
+msgid "IpResource"
+msgstr "IP资源"
+
+msgid "Idc Contract"
+msgstr "数据中心合同"
+
+msgid "idc_contract"
+msgstr "数据中心合同"
+
+msgid "Alias"
+msgstr "别名"
+
+msgid "alias"
+msgstr "别名"
+
+msgid "Operator"
+msgstr "运营商"
+
+msgid "operator"
+msgstr "运营商"
+
+msgid "Begin IP"
+msgstr "开始地址"
+
+msgid "begin_ip"
+msgstr "开始地址"
+
+msgid "End IP"
+msgstr "结束地址"
+
+msgid "end_ip"
+msgstr "结束地址"
+
+msgid "Mask"
+msgstr "子网掩码"
+
+msgid "mask"
+msgstr "子网掩码"
+
+msgid "Gateway"
+msgstr "网关"
+
+msgid "gateway"
+msgstr "网关"
+
+msgid "Dns"
+msgstr "DNS地址"
+
+
+#--Ip_Record
+msgid "ip_record"
+msgstr "IP记录"
+
+msgid "IpRecord"
+msgstr "IP记录"
+
+msgid "IP Resource"
+msgstr "IP资源"
+
+msgid "ip_address"
+msgstr "IP地址"
+
+
+#--Cabinet
+msgid "cabinet"
+msgstr "机柜"
+
+msgid "IDC Contract"
+msgstr "数据中心合同"
+
+
+#--Cabinet_Seat
+msgid "cabinet_seat"
+msgstr "机位"
+
+msgid "CabinetSeat"
+msgstr "机位"
+
+msgid "Cabinet"
+msgstr "机柜"
+
+msgid "Cabinet Seat location"
+msgstr "机位位置"
+
+msgid "cabinet_seat_location"
+msgstr "机位位置"
+
+msgid "Cabinet_Seat"
+msgstr "机位"
+
+
+#--Device
+msgid "device"
+msgstr "设备"
+
+msgid "Device"
+msgstr "设备"
+
+msgid "Seat"
+msgstr "位置"
+
+msgid "device_id"
+msgstr "设备ID"
+
+msgid "Cabinet Seat"
+msgstr "机位"
+
+msgid "cabinet seat"
+msgstr "机位"
+
+
+#--Network_Equipment
+msgid "network_equipment"
+msgstr "网络设备"
+
+msgid "NetworkEquipment"
+msgstr "网络设备"
+
+msgid "Console IP"
+msgstr "管理IP"
+
+msgid "console_ip"
+msgstr "管理IP"
+
+msgid "UUID"
+msgstr "唯一标识"
+
+msgid "uuid"
+msgstr "唯一标识"
+
+msgid "Serial"
+msgstr "序列号"
+
+msgid "Idc Device num"
+msgstr "数据中心设备号"
+
+msgid "idc_device_num"
+msgstr "数据中心设备号"
+
+msgid "Volume"
+msgstr "体积"
+
+msgid "volume"
+msgstr "体积"
+
+msgid "Manufacturer"
+msgstr "制造商"
+
+msgid "manufacturer"
+msgstr "制造商"
+
+msgid "Model"
+msgstr "型号"
+
+msgid "model"
+msgstr "型号"
+
+msgid "Equipment Type"
+msgstr "设备类型"
+
+msgid "equipment_type"
+msgstr "设备类型"
+
+msgid "Total ports"
+msgstr "端口数"
+
+msgid "total_ports"
+msgstr "端口数"
+
+msgid "Warranty Period"
+msgstr "保修期"
+
+msgid "warranty_period"
+msgstr "保修期"
+
+msgid "Is Remote Control"
+msgstr "是否支持远程管理"
+
+msgid "is_remote_control"
+msgstr "是否支持远程管理"
+
+msgid "Is Run"
+msgstr "是否运行"
+
+msgid "is_run"
+msgstr "是否运行"
+
+#--Physical_Server
+msgid "physical_server"
+msgstr "物理服务器"
+
+msgid "PhysicalServer"
+msgstr "物理服务器"
+
+msgid "Asset num"
+msgstr "资产编号"
+
+msgid "asset_num"
+msgstr "资产编号"
+
+msgid "Order num"
+msgstr "订单编号"
+
+msgid "order_num"
+msgstr "订单编号"
+
+msgid "Price"
+msgstr "购买金额"
+
+msgid "price"
+msgstr "购买金额"
+
+msgid "Order date"
+msgstr "购买时间"
+
+msgid "order_date"
+msgstr "购买时间"
+
+msgid "Warranty period"
+msgstr "保修期"
+
+msgid "Processor"
+msgstr "处理器"
+
+msgid "processor"
+msgstr "处理器"
+
+msgid "Memory"
+msgstr "内存"
+
+msgid "memory"
+msgstr "内存"
+
+msgid "Harddisk"
+msgstr "硬盘"
+
+msgid "harddisk"
+msgstr "硬盘"
+
+msgid "Contrl card"
+msgstr "管理卡"
+
+msgid "contrl_card"
+msgstr "管理卡"
+
+msgid "Network card"
+msgstr "网卡"
+
+msgid "network_card"
+msgstr "网卡"
+
+msgid "Operating System"
+msgstr "操作系统"
+
+msgid "operating_system"
+msgstr "操作系统"
+
+msgid "Is run"
+msgstr "是否运行"
+
+msgid "Is control card"
+msgstr "是否有管理卡"
+
+msgid "is_control_card"
+msgstr "是否有管理卡"
+
+msgid "Is virtualization"
+msgstr "是否虚拟化"
+
+msgid "is_virtualization"
+msgstr "是否虚拟化"
+
+msgid "model_num"
+msgstr "型号"
+
+
+#--Host
+msgid "host"
+msgstr "主机"
+
+msgid "Host"
+msgstr "主机"
+
+msgid "Pyhsical server"
+msgstr "物理服务器"
+
+msgid "SaltID"
+msgstr "salt id"
+
+msgid "Operating system"
+msgstr "操作系统"
+
+msgid "OS version"
+msgstr "操作系统版本"
+
+msgid "os_version"
+msgstr "操作系统版本"
+
+msgid "System name"
+msgstr "系统名称"
+
+msgid "system_name"
+msgstr "系统名称"
+
+msgid "Roles"
+msgstr "担当角色"
+
+msgid "roles"
+msgstr "担当角色"
+
+msgid "Is virtual machine"
+msgstr "是否是虚拟机"
+
+msgid "is_virtual_machine"
+msgstr "是否是虚拟机"
+
+
+#--Domain_Name
+msgid "domain_name"
+msgstr "域名"
+
+msgid "DomainName"
+msgstr "域名"
+
+msgid "Application Date"
+msgstr "申请时间"
+
+msgid "application_date"
+msgstr "申请时间"
+
+msgid "Resolution Supplier"
+msgstr "域名解析提供商"
+
+msgid "resolution_supplier"
+msgstr "域名解析提供商"
+
+msgid "Dns Server"
+msgstr "DNS服务器"
+
+msgid "dns_server"
+msgstr "DNS服务器"
+
+msgid "Resolution Company"
+msgstr "域名解析提供商"
+
+#--Domain_Record
+msgid "domain_record"
+msgstr "域名记录"
+
+msgid "DomainRecord"
+msgstr "域名记录"
+
+msgid "Domain name"
+msgstr "域名"
+
+msgid "Record Type"
+msgstr "记录类型"
+
+msgid "record_type"
+msgstr "记录类型"
+
+msgid "Record"
+msgstr "记录"
+
+msgid "record"
+msgstr "记录"
+
+msgid "HostName"
+msgstr "主机名"
+
+msgid "host_name"
+msgstr "主机名"
+
+#--Cdn
+msgid "cdn"
+msgstr "内容分发网络"
+
+msgid "Cdn"
+msgstr "内容分发网络"
+
+msgid "Domain Record"
+msgstr "域名记录"
+
+msgid "Push"
+msgstr "推送"
+
+msgid "Query"
+msgstr "查询"
+
+msgid "push"
+msgstr "推送"
+
+msgid "query"
+msgstr "查询"
+
+#--- Dashboard
+
+msgid "Asset"
+msgstr "资产"
+
+msgid "Application"
+msgstr "应用"
+
+msgid "Assets Geographical Distribution"
+msgstr "资产地理分布"
+
+msgid "Application Geographical Distribution"
+msgstr "应用地理分布"
+
+msgid "Theme"
+msgstr "主题"
+
+
+#-- Export
+
+msgid "Export"
+msgstr "导出"
+
+msgid "export"
+msgstr "导出"
+
+msgid "We are preparing your report, please wait..."
+msgstr "我们正在处理你的报表，请等待。。。"
+
+msgid "There was a problem generating your report, please try again."
+msgstr "请求报表发生错误，请重试。"

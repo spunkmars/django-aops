@@ -1,0 +1,13 @@
+<p>{{ object.contract }}</p>
+<p>{{ object.name }}</p>
+<p>{{ object.application_date }}</p>
+<p>{{ object.deadline }}</p>
+<p>{{ object.resolution_supplier }}</p>
+<p>{{ object.supplier }}</p>
+<p>{{ object.dns_server }}</p>
+<p>{{ object.comment }}</p>
+<p>{{ object.status }}</p>
+<p>{{ object.is_dynamic }}</p>
+<p>{{ object.is_deleted }}</p>
+<p>{{ object.create_time }}</p>
+<p>{{ object.update_time }}</p>
