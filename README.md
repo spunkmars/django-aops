@@ -23,24 +23,24 @@ Powered by Django + Saltstack + sb-admin-2
 
 ## Getting Help ###
 ***
-[GITHUB: https://github.com/spunkmars/django-aops](https://github.com/spunkmars/django-aops)
+GITHUB: [https://github.com/spunkmars/django-aops](https://github.com/spunkmars/django-aops)
 
-[EMAIL: spunkmars@gmail.com](spunkmars@gmail.com)
+EMAIL: <spunkmars@gmail.com>
 
-[WEBSITE: http://www.spunkmars.com](http://www.spunkmars.com)
+WEBSITE: [http://www.spunkmars.com](http://www.spunkmars.com)
 
 
-![image](http://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_01.png)
+![image](https://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_01.png)
 
-![image](http://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_02.png)
+![image](https://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_02.png)
 
-![image](http://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_03.png)
+![image](https://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_03.png)
 
-![image](http://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_04.png)
+![image](https://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_04.png)
 
-![image](http://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_05.png)
+![image](https://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_05.png)
 
-![image](http://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_06.png)
+![image](https://github.com/spunkmars/django-aops/raw/master/docs/aops_show/aops_show_06.png)
 
 ## Documentation ###
 ***
